@@ -1,0 +1,88 @@
+@media (min-width:1080px) {
+    .mainBodyMassIndexCalculator{
+        position: relative;
+        margin-left: 10%;
+        width: 50%;
+        border-radius: 0px 0px 15px 15px;
+        background: linear-gradient(270deg,rgba(7, 181, 224, 0.192) 20%,rgba(255, 255, 255, 0.986) 90%,rgba(12, 181, 247, 0.007) 50%);
+        height: fit-content;
+        padding: 3%;
+    }
+    .mainBodyMassIndex{
+        padding-top: 10%;
+    }
+    .mainBodyMassTitle{
+        font-size: 54px;
+        padding-top: 1%;
+    }
+    .mainBodyMassIndexParagraph{
+        opacity: 0.6;
+        font-size: 18px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .mainBodyMassCalculator{
+        position: absolute;
+        bottom: 20%;
+        left: 70%;
+        background-color: white;
+        width: 50%;
+        height: fit-content;
+        border-radius: 15px;
+    }
+    .mainBodyMassCalculatorFormTypeOf{
+        display: flex; justify-content: space-around;
+    }
+    .mainBodyMassCalculatorFormTypeOfButton{
+        display: flex;
+        padding: 2%;
+    }
+    .mainBodyMassCalculatorFormRadio{
+        margin-right: 5%;
+    }
+    .mainBodyMassCalculatorTitle{
+        padding: 3%;
+        padding-left: 5%;
+    }
+    .mainBodyMassCalculatorFormHeight{
+        padding: 2%;
+        padding-left: 10%;
+        padding-right: 38%;
+    }
+    .mainBodyMassCalculatorFormWeightHeight{
+        display: flex;
+        padding: 3%;
+        justify-content: space-around;
+    }
+    .mainBodyMassCalculatorFormWeightHeightInput{
+        margin: 2%;
+        width: 90%;
+        height: 40px;
+        border: 1px  solid rgba(0, 0, 0, 0.151);
+        border-radius: 6px;
+     
+    }
+    .mainBodyMassCalculatorFormWeightIndicator{
+        position: absolute;
+        bottom: 13%;
+        left: 82%;
+        color: blue;
+    }
+    .mainBodyMassCalculatorFormHeightIndicator{
+        position: absolute;
+        bottom: 13%;
+        left: 34%;
+        color: blue;
+    }
+    .mainBodyMassCalculatorFormResult{
+        color: white;
+        margin: 2%;
+        border-radius: 8px 155px 155px 8px;
+        position: relative;
+        ;
+        background: rgb(94, 188, 231);
+        padding: 5%;
+    }
+ 
+}
+

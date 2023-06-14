@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingChallenge</title>
+    <link rel="stylesheet" href="./week2css.css"/>
+</head>
+<body>
+    <main>
+        <section class='mainBodyMassIndexCalculator'>
+            <img src="./Images/logopage.jpeg" alt='Logo of the Page'/>
+            <aside class='mainBodyMassIndex'>
+                <h1 class='mainBodyMassTitle'>Body Mass</h1>
+                <h1 class='mainBodyMassTitle'>Index Calculator</h1>
+                <p class='mainBodyMassIndexParagraph'>Better understand your weight in relation to your height using</p>
+                <p class='mainBodyMassIndexParagraph'>our body mass index (BM) calculator. While BMI is not the</p>
+                <p class='mainBodyMassIndexParagraph'>sole determinant of a healthy weight, it offers a valuable</p>
+                <p class='mainBodyMassIndexParagraph'>starting point to evaluate your overall health and well-being</p>
+            </aside>
+            <aside class='mainBodyMassCalculator'>
+                <p class='mainBodyMassCalculatorTitle'>Enter your details below</p>
+                <form class='mainBodyMassCalculatorForm'>
+                    <aside class='mainBodyMassCalculatorFormTypeOf'>
+                        <div class='mainBodyMassCalculatorFormTypeOfButton'>
+                            <input type='radio' name='metric' class='mainBodyMassCalculatorFormRadio' id="mainBodyMassCalculatorMetric"/> <p>Metric</p>
+                        </div>
+                        <div class='mainBodyMassCalculatorFormTypeOfButton'>
+                            <input type='radio' name='metric' class='mainBodyMassCalculatorFormRadio' id="mainBodyMassCalculatorImperial"/> <p>Imperial</p>
+                        </div>
+                    </aside>
+                    <aside>
+                        <label class='mainBodyMassCalculatorFormHeight'>Height</label> <label>Weight</label> <br/>
+                        <div class='mainBodyMassCalculatorFormWeightHeight'>
+                            <aside>
+                                <input type='text' name='height' class='mainBodyMassCalculatorFormWeightHeightInput' id="mainBodyCalculatorHeight" placeholder='0'/> 
+                                <h2 class='mainBodyMassCalculatorFormHeightIndicator'>cm</h2>
+                            </aside>
+                            <aside>
+                               <input type='text' name='weight' class='mainBodyMassCalculatorFormWeightHeightInput' id="mainBodyCalculatorWeight" placeholder='0' />
+                               <h2 class='mainBodyMassCalculatorFormWeightIndicator'>kg</h2>
+                            </aside>
+                        </div>
+                    </aside>
+                    <section class='mainBodyMassCalculatorFormResult'>
+                        <h1 class="mainBodyCalculatorFormResultResult">Welcome!</h1>
+                        <p class="mainBodyCalculatorFormResultParagraph">Enter your height and weight and you'll see your BMI result here</p>
+                    </section>
+                </form>
+            </aside>
+        </section>
+    </main>
+    
+    <script src="week2js.js"></script>
+</body>
+</html>

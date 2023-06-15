@@ -33,6 +33,7 @@
         width: 50%;
         height: fit-content;
         border-radius: 15px;
+        box-shadow: 2px 2px 5px 5px #0000003b;
     }
     .mainBodyMassCalculatorFormTypeOf{
         display: flex; justify-content: space-around;
@@ -84,7 +85,7 @@
         border-radius: 8px 155px 155px 8px;
         position: relative;
         ;
-        background: rgb(94, 188, 231);
+        background: rgb(52, 107, 226);
         padding: 5%;
     }
     .mainBodyMassInformation{
@@ -98,13 +99,12 @@
     .mainHealthTips{
         display: flex;
         justify-content: center;
+        padding-top: 5%;
     
     }
-
     .mainHealthSleepTip{
         padding-left: 5%;
     }
-    
     .mainHealthFoodTip{
         padding-right: 5%;
     }
@@ -115,6 +115,61 @@
     .mainHealthTipsParagraphs{
         opacity: 0.6;
     }
- 
+    .mainLimitationsOfBmi{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+       
+    }
+    .mainLimitationsOfBmiContent{
+        background-color: rgba(243, 243, 243, 0.322);
+        box-shadow: 1px solid;
+        border-radius: 10px;
+        padding:25px;
+        margin: 1%;
+        border: 1px;
+        padding: 10px;
+        box-shadow: 5px 5px 5px 5px #0000003b;
+    }
+    .mainLimitationsOfBmiContent:hover{
+        background-color: rgb(68, 158, 180);
+        color: white;
+
+    }
+
+
+    .mainLimitationsOfBmiSection{
+        padding-top: 10%;
+    }
+    .mainLimitationsOfBmiSecondBox{
+        position: relative;
+        justify-content: start !important;
+        left: 40%;
+        width: 50%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    .mainLimitationsOfBmiThirdBox{
+        justify-content: center;
+    }
+    .mainLimitationsOfBmiContentTitle{
+        display: flex;
+        padding-bottom: 15px;
+    }
+    .mainLimitationsOfBmiTitles{
+        font-weight: bolder;
+        padding-left: 5%;
+    }
+    .mainLimitationsOfBmiParagraphs{
+        font-size: 16px;
+        opacity: 0.6;
+    }
+    .mainLimitationsOfBmiMainTitle{
+        font-size: 38px;
+        padding-bottom: 5%;
+    }
+    .mainLimitationsOfBmiIcons{
+        border-radius: 10px;
+    }
 }
 

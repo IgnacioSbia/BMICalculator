@@ -6,7 +6,7 @@
     .mainBodyMassIndexCalculator{
         position: relative;
         margin-left: 10%;
-        width: 50%;
+        width: 100%;
         border-radius: 0px 0px 15px 15px;
         background: linear-gradient(270deg,rgba(7, 181, 224, 0.192) 20%,rgba(255, 255, 255, 0.986) 90%,rgba(12, 181, 247, 0.007) 50%);
         height: fit-content;
@@ -148,6 +148,177 @@
         width: 50%;
         padding-top: 1%;
         padding-bottom: 1%;
+    }
+    .mainLimitationsOfBmiThirdBox{
+        justify-content: center;
+    }
+    .mainLimitationsOfBmiContentTitle{
+        display: flex;
+        padding-bottom: 15px;
+    }
+    .mainLimitationsOfBmiTitles{
+        font-weight: bolder;
+        padding-left: 5%;
+    }
+    .mainLimitationsOfBmiParagraphs{
+        font-size: 16px;
+        opacity: 0.6;
+    }
+    .mainLimitationsOfBmiMainTitle{
+        font-size: 38px;
+        padding-bottom: 5%;
+    }
+    .mainLimitationsOfBmiIcons{
+        border-radius: 10px;
+    }
+}
+
+@media (min-width:820px) {
+    .mainBodyMassIndexCalculator{
+        position: relative;
+        margin-left: 10%;
+        
+        width: 50%;
+        border-radius: 0px 0px 15px 15px;
+        background: linear-gradient(270deg,rgba(7, 181, 224, 0.192) 20%,rgba(255, 255, 255, 0.986) 90%,rgba(12, 181, 247, 0.007) 50%);
+        height: fit-content;
+        padding: 3%;
+    }
+    .mainBodyMassIndex{
+        padding-top: 10%;
+    }
+    .mainBodyMassTitle{
+        font-size: 54px;
+        padding-top: 1%;
+    }
+    .mainBodyMassIndexParagraph{
+        opacity: 0.6;
+        font-size: 18px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .mainBodyMassCalculator{
+        position: relative;
+        bottom: 20%;
+        right: 5%;
+        background-color: white;
+        width: 90%;
+        height: fit-content;
+        border-radius: 15px;
+        box-shadow: 2px 2px 5px 5px #0000003b;
+    }
+    .mainBodyMassCalculatorFormTypeOf{
+        display: flex; justify-content: space-around;
+    }
+    .mainBodyMassCalculatorFormTypeOfButton{
+        display: flex;
+        padding: 2%;
+    }
+    .mainBodyMassCalculatorFormRadio{
+        margin-right: 5%;
+    }
+    .mainBodyMassCalculatorTitle{
+        padding: 3%;
+        padding-left: 5%;
+    }
+    .mainBodyMassCalculatorFormHeight{
+        padding: 2%;
+        padding-left: 10%;
+        padding-right: 38%;
+    }
+    .mainBodyMassCalculatorFormWeightHeight{
+        display: flex;
+        padding: 3%;
+        justify-content: space-around;
+    }
+    .mainBodyMassCalculatorFormWeightHeightInput{
+        margin: 2%;
+        width: 90%;
+        height: 40px;
+        border: 1px  solid rgba(0, 0, 0, 0.151);
+        border-radius: 6px;
+     
+    }
+    .mainBodyMassCalculatorFormWeightIndicator{
+        position: relative;
+        bottom: 42%;
+        left: 75%;
+        color: blue;
+    }
+    .mainBodyMassCalculatorFormHeightIndicator{
+        position: relative;
+        bottom: 42%;
+        left: 70%;
+        color: blue;
+    }
+    .mainBodyMassCalculatorFormResult{
+        color: white;
+        margin: 2%;
+        border-radius: 8px 155px 155px 8px;
+        position: relative;
+        width: 50%;
+        left: 10%;
+        background: rgb(52, 107, 226);
+        padding: 5%;
+       
+    }
+    .mainBodyMassInformation{
+        display: flex;
+        margin-left: 5%;
+    }
+    .mainBodyMassInformationText{
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    .mainHealthTips{
+        display: flex;
+        flex-direction: column;
+      
+        align-items: center;
+        padding-top: 5%;
+    
+    }
+    .mainHealthSleepTip{
+        position: relative;
+        right: 2%;
+    }
+    .mainHealthTipsTitle{
+        padding-bottom: 5%;
+        font-weight: bolder;
+    }
+    .mainHealthTipsParagraphs{
+        opacity: 0.6;
+    }
+    .mainLimitationsOfBmi{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+       
+    }
+    .mainLimitationsOfBmiContent{
+        background-color: rgba(243, 243, 243, 0.322);
+        box-shadow: 1px solid;
+        border-radius: 10px;
+        padding:25px;
+        margin: 1%;
+        border: 1px;
+        padding: 10px;
+        box-shadow: 5px 5px 5px 5px #0000003b;
+    }
+    .mainLimitationsOfBmiContent:hover{
+        background-color: rgb(68, 158, 180);
+        color: white;
+
+    }
+
+
+    .mainLimitationsOfBmiSection{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    .mainLimitationsOfBmiSecondBox{
+      padding: 1%;
     }
     .mainLimitationsOfBmiThirdBox{
         justify-content: center;

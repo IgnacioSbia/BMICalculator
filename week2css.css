@@ -6,7 +6,7 @@
     .mainBodyMassIndexCalculator{
         position: relative;
         margin-left: 10%;
-        width: 100%;
+        width: 50%;
         border-radius: 0px 0px 15px 15px;
         background: linear-gradient(270deg,rgba(7, 181, 224, 0.192) 20%,rgba(255, 255, 255, 0.986) 90%,rgba(12, 181, 247, 0.007) 50%);
         height: fit-content;
@@ -48,11 +48,23 @@
     .mainBodyMassCalculatorTitle{
         padding: 3%;
         padding-left: 5%;
+        font-size: 24px;
+        font-weight: bolder;
     }
     .mainBodyMassCalculatorFormHeight{
         padding: 2%;
         padding-left: 10%;
         padding-right: 38%;
+        font-weight: normal;
+        font-size: 16px;
+    }
+    .mainBodyMassCalculatorFormWeight{
+        font-size: 16px;
+        
+    }
+    .mainBodyMassCalculatorFormRadioParagraph{
+        font-weight: 22px;
+        font-weight: bold;
     }
     .mainBodyMassCalculatorFormWeightHeight{
         display: flex;
@@ -68,16 +80,17 @@
      
     }
     .mainBodyMassCalculatorFormWeightIndicator{
-        position: absolute;
-        bottom: 13%;
-        left: 82%;
+        position: relative;
+        bottom: 50%;
+        left: 74%;
         color: blue;
     }
     .mainBodyMassCalculatorFormHeightIndicator{
-        position: absolute;
-        bottom: 13%;
-        left: 34%;
+        position: relative;
+        bottom: 50%;
+        left: 73%;
         color: blue;
+        font-weight: bolder;
     }
     .mainBodyMassCalculatorFormResult{
         color: white;
@@ -87,6 +100,11 @@
         ;
         background: rgb(52, 107, 226);
         padding: 5%;
+    }
+    .mainMoreInfoTitle{
+        font-size: 26px;
+        font-weight: bolder;
+        padding-bottom: 1%;
     }
     .mainBodyMassInformation{
         display: flex;
@@ -173,7 +191,7 @@
     }
 }
 
-@media (min-width:820px) {
+@media (min-width:820px) and (max-width:1079px) {
     .mainBodyMassIndexCalculator{
         position: relative;
         margin-left: 10%;
@@ -261,6 +279,11 @@
         background: rgb(52, 107, 226);
         padding: 5%;
        
+    }
+    .mainMoreInfoTitle{
+        font-size: 26px;
+        font-weight: bolder;
+        padding-bottom: 1%;
     }
     .mainBodyMassInformation{
         display: flex;

@@ -5,12 +5,11 @@ const imperial = document.querySelector("#mainBodyMassCalculatorImperial");
 
 
 weight.addEventListener('input', (e)=>{
-    console.log(metric.value)
-    console.log(imperial.value)
+    console.log(metric)
+    console.log(imperial.checked)
     const bmiRslt = e.target.value / ((height.value/100)^2)
-
+    
     if(bmiRslt){
-
         document.querySelector(".mainBodyCalculatorFormResultResult").innerHTML=`The result is : ${bmiRslt}`
         document.querySelector(".mainBodyCalculatorFormResultParagraph").innerHTML= " "
     }else{
